@@ -28,9 +28,7 @@ d3.csv("SiteIT.csv").then(function (data) {
     if (filteredData.length === 0 && inputValue !== "Something to give no results"){
       d3.select("p").classed('noresults', true).html("<center><strong>No results. Please check your spelling!</strong>")
     }
-   
-    output = _.sortBy(filteredData, 'State')
-    
+       
      for (var i = 0; i < filteredData.length; i++) {
       d3.select("tbody").insert("tr").html("<td>"+[i+1]+"</td>"+"<td>" +(output[i]['State'])+"</td>" +"<td>" +(output[i]['Zone'])+"</td>"  +"<td>" +(output[i]['PrimaryRep'])+"</td>"+"<td>" +(output[i]['SecondaryRep'])+"</td>") +(output[i]['Supervisor'])+"</td>"}
     };
