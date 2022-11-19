@@ -32,7 +32,7 @@ d3.csv("SiteIT.csv").then(function (data) {
     output = _.sortBy(filteredData, 'State')
     
      for (var i = 0; i < filteredData.length; i++) {
-      d3.select("tbody").insert("tr").html("<td>"+[i+1]+"</td>"+"<td>" +(output[i]['State'])+"</td>" +"<td>" +(output[i]['Zone'])+"</td>"  +"<td>" +(output[i]['PrimaryRep'])+"</td>"+"<td>" +(output[i]['SecondaryRep'])+"</td>") +(output[i]['Supervisor'])+"</td>")}
+      d3.select("tbody").insert("tr").html("<td>"+[i+1]+"</td>"+"<td>" +(output[i]['State'])+"</td>" +"<td>" +(output[i]['Zone'])+"</td>"  +"<td>" +(output[i]['PrimaryRep'])+"</td>"+"<td>" +(output[i]['SecondaryRep'])+"</td>") +(output[i]['Supervisor'])+"</td>"}
     };
   
   window.resizeTo(screen.width,screen.height)
