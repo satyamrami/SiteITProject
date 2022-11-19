@@ -28,7 +28,9 @@ d3.csv("SiteIT.csv").then(function (data) {
     if (filteredData.length === 0 && inputValue !== "Something to give no results"){
       d3.select("p").classed('noresults', true).html("<center><strong>No results. Please check your spelling!</strong>")
     }
-
+   
+    output = '';
+    
     for (var i = 0; i < filteredData.length; i++) {
       d3.select("tbody").insert("tr").html(
         "<td>" + [i + 1] + "</td>" +
@@ -38,6 +40,6 @@ d3.csv("SiteIT.csv").then(function (data) {
         "<td>" + (output[i]['SecondaryRep']) + "</td>" +
         "<td>" + (output[i]['Supervisor']) + "</td") }
     };
-
+  
   window.resizeTo(screen.width,screen.height)
 });
