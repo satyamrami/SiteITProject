@@ -19,7 +19,7 @@ d3.csv("SiteIT.csv").then(function (data) {
 
     // console.log(inputValue.length);
     // console.log(movies);
-    if (inputValue.length < 1){
+    if (inputValue.length <= 1){
       d3.select("p").classed('noresults2', true).html("<center><strong>Please try using at least 2 characters to search for the state</strong>")
       inputValue = "Something to give no results"
     }
