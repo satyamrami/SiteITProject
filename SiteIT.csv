@@ -1,0 +1,36 @@
+State,Zone,PrimaryRep,SecondaryRep,Supervisor
+WA,1,Tim,Luke,Ty
+OR,1,Tim,Luke,Ty
+ID,1,Tim,Luke,Ty
+MT,1,Tim,Luke,Ty
+Northern California,1,Tim,Luke,Ty
+Southern California,2,Luke,Tim,Ty
+NV,2,Luke,Tim/Allen,Ty
+UT,2,Luke,Tim/Allen,Ty
+AZ,3,Luke/Tim,Allen,Ty
+TX,4,Allen,Luke/Tim,Ty
+CO,4,Allen,Luke/Tim,Ty
+KS,4,Allen,Forrest,Ty
+OK,4,Allen,Forrest,Ty
+LA,4,Allen,Forrest,Ty
+MN,5,Forrest,Larry/Mike Young,Kenny
+IA,5,Forrest,Larry/Mike Young,Kenny
+MS,5,Forrest,Larry/Mike Young,Kenny
+IN,5,Forrest,Larry/Mike Young,Kenny
+WI,5,Forrest,Larry/Mike Young,Kenny
+IL,5,Forrest,Larry/Mike Young,Kenny
+Chicago,6,Larry,Forrest,Kenny
+OH,7,Mike Young,Forrest/Larry,Kenny
+MI,7,Mike Young,Forrest/Larry,Kenny
+VA,7,Mike Young,Mike Murphy,Kenny
+KY,7,Mike Young,Forrest/Larry,Kenny
+TN,7,Mike Young,Forrest/Larry,Kenny
+NC,7,Mike Young,Forrest/Larry,Kenny
+SC,7,Mike Young,Forrest/Larry,Kenny
+GA,7,Mike Young,Allen,Kenny
+AL,7,Mike Young,Allen,Kenny
+FL,7,Mike Young,Allen,Kenny
+Steel Way,8,Darren/John Burns,Mike Murphy,Kenny
+PA,9,Mike Murphy,Darren/John Burns,Kenny
+NY,10,Charlie,Mike Murphy,Ty
+IL,5,Forrest,,Ty
