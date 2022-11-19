@@ -32,8 +32,8 @@ d3.csv("SiteIT.csv").then(function (data) {
     for (var i = 0; i < filteredData.length; i++) {
     d3.select("tbody").insert("tr").html(
     "<td>" + [i+1] + "</td>" +
-    "<td>" + (output[i]['State'])+"</a>"+"</td>" + 
-	"<td>" + (output[i]['Zone'])+"</a>"+"</td>" + 
+    "<td>" + (output[i]['State'])+"</td>" + 
+     "<td>" + (output[i]['Zone'])+"</td>" + 
     "<td>" + (output[i]['PrimaryRep'])+"</td>" +
     "<td>" + (output[i]['SecondaryRep'])+"</td>" +
     "<td>" + (output[i]['Supervisor'])+"</td" ) }
